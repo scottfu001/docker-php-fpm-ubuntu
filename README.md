@@ -1,4 +1,4 @@
-This is base on Ubuntu 18.04 nad ahs the following modules with it
+This is base on Ubuntu 18.04 and has the following modules with it
 
 PHP version is 7.2 and build from official Ubuntu repo
 
