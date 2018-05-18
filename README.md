@@ -89,13 +89,12 @@ Zend OPcache
 
 Docker Compose Example
 
-    php:
-        build: ./config/php        
-        image: meowlomo/php-7-fpm-ubuntu
+    php:     
+        image: scottfu/php
         restart: on-failure
         container_name: php
         volumes:
             - "/etc/timezone:/etc/timezone:ro"
-#            - "./config/php/php.ini:/usr/local/config/php/conf.d/php.ini"
+            - "./config/php/php.ini:/usr/local/config/php/conf.d/php.ini"
             - "./resources/www:/var/www/html"
         tty: true
