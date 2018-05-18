@@ -1,89 +1,51 @@
 This is base on Ubuntu 18.04 nad ahs the following modules with it
 
-PHP version is 7.2 and build from offical Ubuntu repo
+PHP version is 7.2 and build from official Ubuntu repo
 
 Port 9000 is exposed
 
 This build has following modules
 
 [PHP Modules]
-apc
-apcu
-ast
-bcmath
-bz2
-calendar
-Core
-ctype
-curl
-date
-dom
-ds
-enchant
-exif
-fileinfo
-filter
-ftp
-gd
-geoip
-gettext
-gmp
-hash
-iconv
-igbinary
-imagick
-imap
-intl
+
+apc  apcu  ast
+
+bcmath bz2
+
+calendar Core ctype curl
+
+date dom ds enchant exif
+
+fileinfo filter ftp
+
+gd geoip gettext gmp hash iconv
+
+igbinary imagick imap intl 
+
 json
-ldap
-libxml
-mbstring
-mongodb
-mysqli
-mysqlnd
-odbc
-openssl
-pcntl
-pcre
-PDO
-pdo_mysql
-PDO_ODBC
-pdo_pgsql
-pdo_sqlite
-pgsql
-Phar
-posix
-pspell
-readline
-recode
-redis
-Reflection
-session
-shmop
-SimpleXML
-soap
-sockets
-sodium
-SPL
-sqlite3
-standard
-sysvmsg
-sysvsem
-sysvshm
-tideways
-tidy
-tokenizer
+
+ldap libxml
+
+mbstring mongodb mysqli mysqlnd
+
+odbc openssl
+
+pcntl pcre PDO pdo_mysql PDO_ODBC pdo_pgsql pdo_sqlite pgsql Phar posix pspell
+
+readline recode redis Reflection
+
+session shmop SimpleXML soap sockets sodium SPL sqlite3 standard sysvmsg sysvsem sysvshm
+
+tideways tidy tokenizer
+
 wddx
-xml
-xmlreader
-xmlrpc
-xmlwriter
-xsl
-Zend OPcache
-zip
-zlib
+
+xml xmlreader xmlrpc xmlwriter xsl
+
+zip zlib
 
 [Zend Modules]
+
 Zend OPcache
 
 
