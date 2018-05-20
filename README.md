@@ -52,7 +52,7 @@ Zend OPcache
 Docker Compose Example
 
     php:     
-        image: scottfu/docker-php-fpm
+        image: scottfu/php-fpm-ubuntu
         restart: on-failure
         container_name: php
         volumes:
