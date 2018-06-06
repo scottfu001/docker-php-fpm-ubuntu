@@ -82,6 +82,11 @@ RUN curl https://getcomposer.org/installer > composer-setup.php && php composer-
 # clean up
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && apt-get autoremove
 
+# volumn
+RUN mkdir -p /var/www/html && chown -R www-data:www-data /var/www/html
+VOLUME ["/var/www/html"]
+WORKDIR /var/www/html
+
 # port
 EXPOSE 9000
 
