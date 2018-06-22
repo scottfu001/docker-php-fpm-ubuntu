@@ -2,13 +2,15 @@ FROM ubuntu:bionic
 MAINTAINER  Scott Fu <scott.fu@oulook.com>
 
 #enviroment variables
-ENV TZ=UTC
+ENV TZ=Etc/UTC
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # some missing pkgs
 RUN apt-get update && apt-get install -y --no-install-recommends dialog apt-utils
 
 # build required libs
-RUN apt-get install -y locales curl software-properties-common && locale-gen en_US.UTF-8 
+RUN apt-get install -y locales curl vim git software-properties-common && \
+	locale-gen en_US.UTF-8 
 
 # packages installation
 RUN apt-get install -y \
