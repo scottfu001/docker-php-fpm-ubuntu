@@ -1,6 +1,6 @@
 This is base on Ubuntu 18.04 and has the following modules with it
 
-PHP version is 7.2 and build from official Ubuntu repo
+PHP version is 7.0 and build from official Ubuntu repo
 
 Port 9000 is exposed
 
@@ -14,7 +14,9 @@ bcmath bz2
 
 calendar Core ctype curl
 
-date dom ds enchant exif
+date dom 
+
+enchant exif
 
 fileinfo filter ftp
 
@@ -36,7 +38,7 @@ readline recode redis Reflection
 
 session shmop SimpleXML soap sockets sodium SPL sqlite3 standard sysvmsg sysvsem sysvshm
 
-tideways tidy tokenizer
+tidy tokenizer
 
 wddx
 
