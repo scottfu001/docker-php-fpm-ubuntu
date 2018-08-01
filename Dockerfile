@@ -28,10 +28,8 @@ RUN apt-get install -y \
 	php-deepcopy \
 	php-directory-scanner \
 	php-dompdf \
-	php-ds \
 	php-email-validator \
 	php-enchant \
-	php-enum \
 	php-fdomdocument \
 	php-fpdf \
 	php-fpm \
@@ -60,7 +58,6 @@ RUN apt-get install -y \
 	php-xmlrpc \
 	php-xsl \
 	php-zip \
-	php-tideways \
 	php-mongodb
 	
 # basic config
